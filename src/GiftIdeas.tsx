@@ -23,7 +23,7 @@ function GiftIdeas() {
                     Polo Ralf Lauren-Quarter-Zipp
                 </p>
                 <p>
-                    Maison Margela
+                    Maison Margela on a date
                 </p>
                 <p>
                     Torino 21
