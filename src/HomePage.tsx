@@ -15,7 +15,7 @@ function HomePage() {
                 </div>
             </header>
 
-            <img src="/public/img/ErruBild.jpg" alt="Erru Bild" className="mainImage"/>
+            <img src="/img/ErruBild.jpg" alt="Erru Bild" className="mainImage"/>
         </>
     );
 }
