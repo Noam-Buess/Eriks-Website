@@ -1,42 +1,80 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.mainImage {
+  width: 240px;
+  height: 320px;
+  display: block;
+  position: relative;
+  top: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+    
+}
+
+.title {
   text-align: center;
+  font-size: 60px;
+  margin-top: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.tabs {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 35px;
+  gap: 100px;
+  display: flex;
+  justify-content: center;
+
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.tab1 {
+  text-decoration: none;
+  color: gold;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.tab1:hover {
+  color: silver;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tab2 {
+  text-decoration: none;
+  color: gold;
+}
+.tab2:hover {
+  color: silver;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.tab3 {
+  text-decoration: none;
+  color: gold;
+}
+.tab3:hover {
+  color: silver;
 }
 
-.card {
-  padding: 2em;
+.tab4 {
+  color: gold;
+  text-decoration: none;
+}
+.tab4:hover {
+  color: silver;
+}
+.tab5 {
+  color: gold;
+  text-decoration: none;
+}
+.tab5:hover {
+  color: silver;
 }
 
-.read-the-docs {
-  color: #888;
+.content {
+  text-align: center;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.noam {
+  color: black;
+  text-decoration: none;
 }

@@ -1,11 +1,11 @@
+import "./App.css"
 import { Link } from "react-router-dom";
-import "./App.css";
 
-function HomePage() {
+function WorkCollegues() {
     return (
         <>
             <header>
-                <h1 className="title">Erik Schmocker</h1>
+                <h1 className="title">Arbeitskollegen</h1>
                 <div className="tabs">
                     <Link to="/" className="tab1">Home</Link>
                     <Link to="/achievements" className="tab2">Erfahrungen</Link>
@@ -14,10 +14,11 @@ function HomePage() {
                     <Link to="/work-collegues" className="tab5">Arbeitskollegen</Link>
                 </div>
             </header>
-
-            <img src="/public/img/ErruBild.jpg" alt="Erru Bild" className="mainImage"/>
+            <br></br>
+            <div className="content">
+                <strong><a href="https://noambuesssteckbrief.vercel.app" className="noam">Noam Buess -- Coop</a></strong>
+            </div>
         </>
-    );
+    )
 }
-
-export default HomePage;
+export default WorkCollegues;
