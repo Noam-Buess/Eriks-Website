@@ -1,9 +1,10 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import HomePage from "./HomePage";
-import ContactPage from "./ContactPage";
-import Achievements from "./Achievements";
-import GiftIdeas from "./GiftIdeas";
-import WorkCollegues from "./Work-Collegues";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import HomePage from "./HomePage"
+import ContactPage from "./ContactPage"
+import Achievements from "./Achievements"
+import GiftIdeas from "./GiftIdeas"
+import WorkCollegues from "./Work-Collegues"
+import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   return (
@@ -15,7 +16,12 @@ function App() {
         <Route path="/gift-ideas" element={<GiftIdeas />} />
         <Route path="/work-collegues" element={<WorkCollegues />} />
       </Routes>
+
+
+      <Analytics/>
     </Router>
+
+  
 
   );
 }

@@ -32,7 +32,7 @@ function GiftIdeas() {
                     Gold
                 </p>
                 <p>
-                    Bitcoin
+                    Bitcoins
                 </p>
                 <p>
                     Ethereum
