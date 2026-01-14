@@ -4,7 +4,7 @@ import ContactPage from "./ContactPage";
 import Achievements from "./Achievements";
 import GiftIdeas from "./GiftIdeas";
 import WorkCollegues from "./Work-Collegues";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
