@@ -16,10 +16,7 @@ function ContactPage() {
         </header>
         <br></br>
         <div className="content">
-            <p>
-                <strong>Telefon: </strong>
-                <a href="tel:0774486672">077 448 66 72</a>
-            </p>
+
             <p>
                 <strong>Email: </strong>
                 <a href="mailto:erik.schmocker@gmail.com">erik.schmocker@gmail.com</a>
